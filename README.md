@@ -120,6 +120,6 @@ curl http://localhost:1234/v1/models
 | ---------------- | --------------------------- |
 | LM Studio API    | ==`http://localhost:1234`== |
 | AnythingLLM Chat | ==`http://localhost:3001`== |
-![[Préparation_Kali 1.py]]
-![[Création_IA.sh]]
-![[Cloture.py]]
+![[Préparation_Kali 1.py]]   1
+![[Création_IA.sh]]          2
+![[Cloture.py]]              3
