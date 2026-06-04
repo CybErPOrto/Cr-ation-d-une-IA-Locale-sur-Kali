@@ -2,7 +2,7 @@
 # ============================================================
 #  SETUP IA LOCALE PENTEST - Kali Linux
 #  Stack : LM Studio + AnythingLLM + WhiteRabbitNeo
-#  Auteur : Cedric Fibelkorn
+#  Auteur : Cyberporto
 # ============================================================
 
 RED='\033[0;31m'
