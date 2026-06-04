@@ -1,0 +1,11 @@
+import shutil, os
+
+os.makedirs('/tmp/output', exist_ok=True)
+shutil.copy('/tmp/setup-ia-pentest.sh', '/tmp/output/setup-ia-pentest.sh')
+
+# Aussi écrire dans le répertoire de travail standard
+with open('setup-ia-pentest.sh', 'w') as f:
+    with open('/tmp/setup-ia-pentest.sh') as src:
+        f.write(src.read())
+
+print("Fichier disponible en téléchargement : setup-ia-pentest.sh")
